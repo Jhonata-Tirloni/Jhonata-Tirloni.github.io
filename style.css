@@ -151,6 +151,8 @@ li img {
   opacity: 0;
   visibility: hidden;
   z-index: 999;
+  margin-top: 0.9rem;
+
 }
 
 .modal-overlay.active {
@@ -287,6 +289,8 @@ button:hover {
   justify-content: center;
   opacity: 0;
   z-index: 999;
+  margin-top: 0.9rem;
+
 }
 
 .modal-overlay-prof.hidden{
@@ -355,6 +359,8 @@ animation: AnimateBG 20s ease infinite;
   justify-content: center;
   opacity: 0;
   z-index: 999;
+  margin-top: 0.9rem;
+
 }
 
 .modal-overlay-cursos.hidden{
@@ -419,6 +425,7 @@ animation: AnimateBG 20s ease infinite;
   height: 100%;
   background-color: rgba(73, 71, 71, 0.416);
   top: 0;
+  margin-top: 0.9rem;
   display: flex;
   align-items: center;
   justify-content: center;
