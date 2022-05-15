@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Jhonata Tirloni - Data Scientist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/d15265e4a6.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <img id="faixa" src="images/faixa.png" alt="" />
+    <div class="glassEffect"><img class="noise-card-background" src="./images/noise-background.jpg"></div>
+      <main>
+        <a class="qualifications" onclick="ModalOpen.open()" id="submit">Qualificações</a>
+        <div class="container">
+          <div class="avatar" id="avatar">
+            <img id="userAvatar" src="" alt="Foto pessoal"/>
+          </div>
+          <h1 id="userName">Jhonata Tirloni</h1>
+          <a id="userLink" href="https://github.com/Jhonata-Tirloni" target="_blank">
+            <img src="./images/github.svg" alt="ícone github"/>
+            <span id="usernameGitHub">Jhonata-Tirloni</span>
+          </a>
+          <p>
+            “Believe in data.”
+          </p>
+          <span class="build">#DataScience</span>
+          <ul id="socialLinks">
+            <li class="instagram">
+              <a href="https://www.instagram.com/jtirloni" target="_blank">
+                <img src="./images/instagram.jpg" alt="ícone instagram" style="width: 30px; margin-top: .3rem;"/>
+              </a>
+            </li>
+            <li class="linkedin">
+              <a href="https://www.linkedin.com/in/jhonata-tirloni" target="_blank">
+                <img src="./images/linkedin.png" alt="ícone linkedin" style="width: 30px; border-radius: .2rem; margin-top: .3rem;"/>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </main>
+    <div class="modal-overlay hidden">
+      <div class="modal">
+        <p>SELECIONE UMA<br>DAS OPÇÕES ABAIXO</p>
+        <div class="formulario">
+          <div class="campo">
+            <div class="campo">
+              <i class="fa-solid fa-user-graduate"></i>
+                <button class="button-modal" onclick="ProfModalOpen.open()" id="submit">
+                  Formação
+                </button>
+            </div>
+            <div class="campo">
+              <i class="fa-solid fa-award"></i>
+                <button class="button-modal" onclick="CursosModalOpen.open()" id="submit">
+                  Cursos & Certificações
+                </button>
+            </div>
+            <div class="campo">
+              <i class="fa-solid fa-briefcase"></i>
+                <button class="button-modal" onclick="ExpModalOpen.open()">
+                  Exp. Profissional
+                </button>
+            </div>
+            <div class="campo">
+              <i class="fa-solid fa-laptop-code"></i>
+                <button class="button-modal" onclick="PortifModalOpen.open()">
+                  Portfólio
+                </button>
+            </div>
+          </div>
+        </div> 
+        <button class="button-modal-close" onclick="ModalClose.close()" id="submit">Fechar Qualificações</button>
+        <script src="script.js"></script>
+      </div>
+    </div>
+    <div class="modal-overlay-prof hidden">
+      <div class="modal-prof">
+        <i class="fa-solid fa-graduation-cap" style="margin-top: 2rem; padding: 0;"></i>
+        <div class="formulario">
+          <div>
+            <ul>
+              <li>
+                <p style="margin-top: 0.3rem;">Curso Superior<br>Análise e Desenvolvimento de Sistemas</p>
+                <p style="margin-top: 0.1rem; font-size:14px; font-weight: 100; padding-left: 0.8rem; padding-right: 0.8rem;">Formação através da instituição IFMT - Instituto Federal de Ciência e Tecnologia do Mato Grosso Campus São Vicente.<br> Concluído em: 12/2020</p>
+                <p style="margin-top: 1.5rem;">Pós-Graduação<br>Inteligência Artificial e Machine Learning</p>
+                <p style="margin-top: 0.1rem; font-size:14px; font-weight: 100; padding-left: 0.8rem; padding-right: 0.8rem;">Formação através da instituição Cruzeiro do Sul.<br> Previsão de conclusão: 2022.</p>
+                <p style="margin-top: 1.5rem;">Técnico Nivel Médio<br>Cadeia de Suprimentos e Logística</p>
+                <p style="margin-top: 0.1rem; font-size:14px; font-weight: 100; padding-left: 0.8rem; padding-right: 0.8rem;">Formação através da instituição E.E. Ulisses Guimarães, Campo Verde - MT.<br>Concluído em: 12/2017</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <button class="button-modal-prof-close" onclick="ProfModalClose.close()" id="submit">Voltar</button>
+        <script src="script.js"></script>
+      </div>
+    </div>
+    <div class="modal-overlay-cursos hidden">
+      <div class="modal-cursos">
+        <i class="fa-solid fa-award" style="margin-top: 2rem; padding: 0;"></i>
+        <div class="formulario">
+          <div>
+            <ul>
+              <li>
+                <p style="margin-top: 0.1rem; font-size:14px; font-weight: 100; padding-left: 0.8rem; padding-right: 0.8rem;">Tech6<br>Formação PowerBI Intermediário/Avançado</p>
+                <p style="margin-top: 0.1rem; font-size:14px; font-weight: 100; padding-left: 0.8rem; padding-right: 0.8rem;">TDS Tecnologia<br>Analyzing Data With Power BI 20778-C</p>
+                <p style="margin-top: 0.1rem; font-size:14px; font-weight: 100; padding-left: 0.8rem; padding-right: 0.8rem;">DataCamp<br>Data Science for Everyone</p>
+                <p style="margin-top: 0.1rem; font-size:14px; font-weight: 100; padding-left: 0.8rem; padding-right: 0.8rem;">DataCamp<br>Intermediate Python</p>
+                <hr width="100%">
+                <p style="margin-top: 0.8rem; font-size:14px; font-weight: 100; padding-left: 0.8rem; padding-right: 0.8rem;">EF SET<br>English Certificate 70/100 (C1 Advanced)<br><a href="https://www.efset.org/cert/HnS3Xu">Credencial</a></p>
+                <p style="margin-top: 0.8rem; font-size:14px; font-weight: 100; padding-left: 0.8rem; padding-right: 0.8rem;">SCRUMstudy<br>Scrum Fundamentals Certified<br><a href="https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/ScrumFundamentalsCertified-JhonataTirloni-847835.pdf">Credencial</a></p>
+                <hr width="100%">
+                <p style="margin-top: 0.8rem; font-size:14px; font-weight: 100; padding-left: 0.8rem; padding-right: 0.8rem;">Para mais cursos e certificações acesse meu<a href="https://www.linkedin.com/in/jhonata-tirloni" target="_blank">Linkedin!</a></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <button class="button-modal-cursos-close" onclick="CursosModalClose.close()" id="submit">Voltar</button>
+        <script src="script.js"></script>
+      </div>
+    </div>
+    <div class="modal-overlay-exp hidden">
+      <div class="modal-exp">
+        <i class="fa-solid fa-award" style="margin-top: 2rem; padding: 0;"></i>
+        <div class="formulario">
+          <div>
+            <ul>
+              <li>
+                <p style="margin-top: 0.3rem;">Sicredi</p>
+                <p style="margin-top: 0.1rem; font-size:14px; font-weight: 100; padding-left: 0.8rem; padding-right: 0.8rem;">Atuo na empresa a 4 anos e 10 meses, onde passei por diversas experiências e cargos diferentes! Alguns citados abaixo:</p>
+                <p style="margin-top: 0.1rem; font-size:14px; font-weight: 100; padding-left: 0.8rem; padding-right: 0.8rem;">Analista de Business Intelligence <br><strong>Atual - 9 Meses</strong></p>
+                <p style="margin-top: 0.1rem; font-size:14px; font-weight: 100; padding-left: 0.8rem; padding-right: 0.8rem;">Analista de Processos e Qualidade <br><strong>1 ano e 1 mês</strong></p>
+                <p style="margin-top: 0.1rem; font-size:14px; font-weight: 100; padding-left: 0.8rem; padding-right: 0.8rem;">Assistente de Processos & Qualidade <br><strong>7 Meses</strong></p>
+                <p style="margin-top: 0.1rem; font-size:14px; font-weight: 100; padding-left: 0.8rem; padding-right: 0.8rem;">Assistente Administrativo <br><strong>3 Meses</strong></p>
+                <hr width="100%">
+                <p style="margin-top: 0.8rem; font-size:14px; font-weight: 100; padding-left: 0.8rem; padding-right: 0.8rem;">Para mais experiências e descrição das funções acesse meu<a href="https://www.linkedin.com/in/jhonata-tirloni" target="_blank">Linkedin!</a></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <button class="button-modal-exp-close" onclick="ExpModalClose.close()" id="submit">Voltar</button>
+        <script src="script.js"></script>
+      </div>
+    </div>
+    <div class="modal-overlay-portif hidden">
+      <div class="modal-portif">
+        <div class="formulario">
+          <div>
+            <ul>
+              <li>
+                <p style="margin-top: 0.3rem;">Web Developer<br></p>
+                <p style="margin-top: 0.1rem; font-size:14px; font-weight: 100; padding-left: 0.8rem; padding-right: 0.8rem;">Tive a oportunidade de desenvolver dois projetos incríveis para a Sicredi que são voltados a comunidade:</p>
+                <p style="margin-top: 0.1rem; font-size:14px; font-weight: 100; padding-left: 0.8rem; padding-right: 0.8rem;"><strong>Plataforma Crescer</strong><br>Plataforma com videos institucionais sobre o papel do Sicredi e como ele apoia a comunidade.</p>
+                <p style="margin-top: 0.1rem; font-size:14px; font-weight: 100; padding-left: 0.8rem; padding-right: 0.8rem;"><strong><a href="https://eucooperosicredi.com/">Ecobags Sicredi</a></strong>Campanha que distribuir sacolas reutilizáveis nos mercados locais e distribui aos clientes.</p>
+                <hr width="100%">
+                <p style="margin-top: 0.3rem;">Data Science<br></p>
+                <p style="margin-top: 0.1rem; font-size:14px; font-weight: 100; padding-left: 0.8rem; padding-right: 0.8rem;"><strong>AirBNB Rio de Janeiro</strong><br>Projeto de Data Science que utiliza dados da API do AIRBNB para criar um aplicativo em Python com gráficos interativos e um modelo de ML para previsão de preços na região.</p>
+                <hr width="100%">
+                <p style="margin-top: 0.8rem; font-size:14px; font-weight: 100; padding-left: 0.8rem; padding-right: 0.8rem;">Para visualizar meus projetos acesse meu <a href="https://github.com/Jhonata-Tirloni" target="_blank">Github!</a></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <button class="button-modal-portif-close" onclick="PortifModalClose.close()" id="submit">Voltar</button>
+        <script src="script.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
