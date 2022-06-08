@@ -164,7 +164,7 @@ li img {
   height: var(--heightBadge);
   background: #121214;
   text-align: center;
-  top: 122px;
+  top: 128px;
   position: absolute;
   z-index: 1;
   border-radius: 1rem;
