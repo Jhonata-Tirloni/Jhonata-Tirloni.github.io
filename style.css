@@ -141,7 +141,6 @@ li img {
 ******** MODAL *********
 ************************/
 .modal-overlay {
-  width: 100%;
   height: 100%;
   background-color: rgba(73, 71, 71, 0.416);
   top: 0;
@@ -280,7 +279,6 @@ button:hover {
 ******** MODAL FORMAÇÃO*********
 ************************************/
 .modal-overlay-prof {
-  width: 100%;
   height: 100%;
   background-color: rgba(73, 71, 71, 0.416);
   top: 0;
@@ -350,7 +348,6 @@ animation: AnimateBG 20s ease infinite;
 ******** MODAL CURSOS*********
 ************************************/
 .modal-overlay-cursos {
-  width: 100%;
   height: 100%;
   background-color: rgba(73, 71, 71, 0.416);
   top: 0;
@@ -421,7 +418,6 @@ animation: AnimateBG 20s ease infinite;
 ******** MODAL EXP PROFISSIONAL*********
 ************************************/
 .modal-overlay-exp {
-  width: 100%;
   height: 100%;
   background-color: rgba(73, 71, 71, 0.416);
   top: 0;
@@ -491,7 +487,6 @@ animation: AnimateBG 20s ease infinite;
 ******** MODAL PORTIFÓLIO *********
 ************************************/
 .modal-overlay-portif {
-  width: 100%;
   height: 100%;
   background-color: rgba(73, 71, 71, 0.416);
   top: 0;
